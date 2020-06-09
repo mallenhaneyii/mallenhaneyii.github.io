@@ -118,6 +118,13 @@ section ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+
+#about img {
+    padding: 1em;
+    display: block;
+    margin-right: 200px;
+    width: 400px;
+}
 footer {
     margin-top: 2em;
     margin-bottom: .5em;
