@@ -45,6 +45,15 @@ header, main, footer {
     max-width: 1000px;
 }
 
+ul {
+    padding-top: 1.5em;
+    padding-bottom: 3em;
+}
+
+ul li {
+    padding: 1em;
+}
+
 .aboutMe img {
     padding: 1em;
     display: block;
@@ -64,7 +73,6 @@ header span {
 nav {
     position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
 
     display: flex;
@@ -119,7 +127,6 @@ section ul {
 }
 
 #projects article img:hover {
-
     border: 6px solid orangered;
 }
 
