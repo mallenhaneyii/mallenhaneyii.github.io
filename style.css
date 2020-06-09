@@ -7,11 +7,20 @@
     max-width: 100%;
 }
 
+.indexHeader {
+    padding: 1em 0 0 0;
+    color: orangered
+}
+
+.projectsHeader {
+    color: orangered;
+}
+
 body {
     background-color: #121212;
 }
 
-h1, h2, h3 {
+h2, h3 {
     color: orangered;
     text-align: center;
 }
@@ -28,17 +37,13 @@ html{
 
 header, main, footer {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 1000px;
 }
 
-header {
-    padding: 2em 0;
-}
-
-header img {
+.aboutMe img {
+    padding: 1em;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 200px;
     width: 400px;
 }
 
@@ -50,7 +55,6 @@ header span {
     font-size: 1.5em;
     color: #999;
 }
-
 
 nav {
     position: fixed;
@@ -77,8 +81,7 @@ nav a:hover {
 
 section {
     margin: 1em 0;
-
-    padding-top: 3em;
+    padding-top: 1em;
     min-height: 20em;
 }
 
@@ -103,7 +106,6 @@ section ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
-    
     grid-column-gap: 1em;
 }
 
@@ -112,6 +114,10 @@ section ul {
     border: 3px solid whitesmoke;
 }
 
+#about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 footer {
     margin-top: 2em;
     margin-bottom: .5em;
