@@ -118,6 +118,11 @@ section ul {
     border: 3px solid whitesmoke;
 }
 
+#projects article img:hover {
+
+    border: 6px solid orangered;
+}
+
 #about {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
