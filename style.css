@@ -5,6 +5,8 @@
     margin: 0;
     padding: 0;
     max-width: 100%;
+    max-height: 100%
+    
 }
 
 .indexHeader {
@@ -31,34 +33,22 @@ h1 {
 }
 
 h4 {
-    padding-top: .5em;
+    padding-top: 1em;
 }
 
 html{
-    font-size: 16px;
+    font-size: calc(1em + .20vw);
     margin-top: 3em;
     color: whitesmoke;
 }
 
 header, main, footer {
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 1200px;
 }
 
 ul {
-    padding-top: 1.5em;
     padding-bottom: 3em;
-}
-
-ul li {
-    padding: 1em;
-}
-
-.aboutMe img {
-    padding: 1em;
-    display: block;
-    margin-right: 200px;
-    width: 400px;
 }
 
 header h1 {
@@ -121,6 +111,11 @@ section ul {
     grid-column-gap: 1em;
 }
 
+.myProjects p {
+    padding-bottom: 2em;
+    font-size: 17px;
+}
+
 #projects article img{
     width: 100%;
     border: 3px solid whitesmoke;
@@ -136,10 +131,22 @@ section ul {
 }
 
 #about img {
-    padding: 1em;
+    padding: 2em;
     display: block;
     margin-right: 200px;
-    width: 400px;
+    width: 500px;
+}
+
+.aboutMe {
+    padding-bottom: 5em;
+}
+
+.aboutMe p {
+    padding-bottom: 2em;
+}
+
+.aboutMe ul li {
+    padding: .75em;
 }
 footer {
     margin-top: 2em;
