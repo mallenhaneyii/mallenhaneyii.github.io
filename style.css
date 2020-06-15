@@ -18,7 +18,8 @@
 }
 
 body {
-    background-color: #121212;
+    background: url("background.jpg");
+    /* background-color: #121212; */
 }
 
 h2, h3 {
@@ -36,6 +37,7 @@ h4 {
 
 html{
     font-size: 16px;
+    font-style: bold;
     margin-top: 3em;
     color: whitesmoke;
 }
