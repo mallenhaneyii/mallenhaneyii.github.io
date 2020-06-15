@@ -5,8 +5,8 @@
     margin: 0;
     padding: 0;
     max-width: 100%;
-    max-height: 100%
-    
+    max-height: 100%;
+    text-align: center;
 }
 
 .indexHeader {
@@ -119,6 +119,7 @@ section ul {
 #projects article img{
     width: 100%;
     border: 3px solid whitesmoke;
+    height: 300px;
 }
 
 #projects article img:hover {
@@ -131,14 +132,16 @@ section ul {
 }
 
 #about img {
-    padding: 2em;
+    padding-top: 2em;
     display: block;
     margin-right: 200px;
     width: 500px;
 }
 
 .aboutMe {
-    padding-bottom: 5em;
+    margin: auto auto;
+    max-width: 100%;
+    font-size: 1.2em;
 }
 
 .aboutMe p {
@@ -149,10 +152,12 @@ section ul {
     padding: .75em;
 }
 footer {
-    margin-top: 2em;
-    margin-bottom: .5em;
-    color: orangered;
-    padding: 1em 0;
+    background-color: orangered;
+    color: whitesmoke;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
     text-align: center;
 }
 
