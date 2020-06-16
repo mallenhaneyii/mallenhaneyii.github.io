@@ -42,7 +42,7 @@ html{
     color: whitesmoke;
 }
 
-header, main, footer {
+header, main {
     margin: 0 auto;
     max-width: 1200px;
 }
@@ -131,26 +131,7 @@ section ul {
     grid-template-columns: repeat(2, 1fr);
 }
 
-#about img {
-    padding-top: 2em;
-    display: block;
-    margin-right: 200px;
-    width: 500px;
-}
 
-.aboutMe {
-    margin: auto auto;
-    max-width: 100%;
-    font-size: 1.2em;
-}
-
-.aboutMe p {
-    padding-bottom: 2em;
-}
-
-.aboutMe ul li {
-    padding: .75em;
-}
 footer {
     background-color: orangered;
     color: whitesmoke;
