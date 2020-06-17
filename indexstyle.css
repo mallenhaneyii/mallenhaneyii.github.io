@@ -49,18 +49,29 @@ nav a:hover {
 #about {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+<<<<<<< HEAD
     max-width: 90%;
+=======
+>>>>>>> 7358ef2d5a878774ca13cbab6be55871e9960e81
 }
 
 #about img {
     padding-top: 2em;
     display: block;
     margin-right: 200px;
+<<<<<<< HEAD
     width: 50vm;
+=======
+    width: 90%;
+>>>>>>> 7358ef2d5a878774ca13cbab6be55871e9960e81
 }
 
 .aboutMe {
     margin: auto auto;
+<<<<<<< HEAD
+=======
+    max-width: 90%;
+>>>>>>> 7358ef2d5a878774ca13cbab6be55871e9960e81
     font-size: 1em;
 }
 
