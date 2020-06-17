@@ -121,8 +121,8 @@ section ul {
 
 #projects article img{
     border: 3px solid whitesmoke;
-    height: 50%;
-    width: 75%
+    height: 50vm;
+    width: 50vm;
 }
 
 #projects article img:hover {

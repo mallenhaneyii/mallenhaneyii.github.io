@@ -56,12 +56,11 @@ nav a:hover {
     padding-top: 2em;
     display: block;
     margin-right: 200px;
-    width: 90%;
+    width: 50vm;
 }
 
 .aboutMe {
     margin: auto auto;
-    max-width: 90%;
     font-size: 1em;
 }
 
