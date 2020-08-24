@@ -59,3 +59,21 @@ footer {
     right: 0;
     text-align: center;
 }
+
+
+@media only screen and (max-width: 767px){
+
+    .aboutMe {
+        max-width: 90%;
+    }
+
+    .headshot {
+        max-width: 90%;
+        padding-top: 3em;
+    }
+
+    .paragraph {
+        font-size: .7em;
+    }
+
+}
